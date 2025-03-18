@@ -2,7 +2,7 @@
     "name": "hotspotbilling/phpnuxbill",
     "type": "template",
     "description": "PHPNuxBill a Hotspot Billing Software.",
-    "keywords": ["template","PHPMixBill","PHPnuxBill","Mikrotik","Hotspot","Billing"],
+    "keywords": ["template", "PHPMixBill", "PHPnuxBill", "Mikrotik", "Hotspot", "Billing"],
     "homepage": "https://github.com/hotspotbilling/phpnuxbill",
     "license": "MIT",
     "authors": [
@@ -12,5 +12,7 @@
             "homepage": "https://ibnux.net",
             "role": "Developer"
         }
-    ]
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }

@@ -1,7 +1,7 @@
 {
     "name": "hotspotbilling/phpnuxbill",
-    "type": "project",
-    "description": "PHPNuxBill - A Hotspot Billing Software.",
+    "type": "template",
+    "description": "PHPNuxBill a Hotspot Billing Software.",
     "keywords": ["template", "PHPMixBill", "PHPnuxBill", "Mikrotik", "Hotspot", "Billing"],
     "homepage": "https://github.com/hotspotbilling/phpnuxbill",
     "license": "MIT",
@@ -16,22 +16,19 @@
     "require": {
         "php": "^8.0",
         "ext-openssl": "*",
-        "ext-json": "*",
         "ext-mbstring": "*",
-        "ext-pdo": "*",
         "ext-curl": "*",
-        "ext-gd": "*",
-        "illuminate/database": "^10.0",
-        "illuminate/support": "^10.0",
-        "vlucas/phpdotenv": "^5.5",
-        "symfony/console": "^6.0",
-        "monolog/monolog": "^3.0",
-        "guzzlehttp/guzzle": "^7.0"
+        "ext-json": "*",
+        "ext-pdo": "*",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
     },
     "config": {
-        "platform": {
-            "php": "8.2"
-        },
-        "optimize-autoloader": true
+        "optimize-autoloader": true,
+        "preferred-install": "dist"
     }
 }

@@ -1,5 +1,5 @@
 {
-    "_readme": "This is a placeholder file to ensure deployment works.",
+    "_readme": "This is a placeholder lock file. Run `composer update` to regenerate it properly.",
     "packages": [],
     "dependencies": {}
 }
